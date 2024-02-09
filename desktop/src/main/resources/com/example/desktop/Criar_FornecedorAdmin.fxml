@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.desktop.CriarFornecedores">
+   <children>
+      <ImageView fitHeight="57.0" fitWidth="200.0" layoutX="394.0" layoutY="27.0">
+         <image>
+            <Image url="@../../../icons/logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="363.0" layoutY="100.0" prefHeight="45.0" prefWidth="265.0" text="Criar Fornecedores" textAlignment="CENTER">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="idConForn" layoutX="444.0" layoutY="413.0" mnemonicParsing="false" onAction="#btnCriarFornecedor" prefHeight="30.0" prefWidth="101.0" text="Confirmar" />
+      <Label layoutX="394.0" layoutY="177.0" prefHeight="30.0" prefWidth="62.0" text="Nome">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="394.0" layoutY="237.0" prefHeight="30.0" prefWidth="62.0" text="Email">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="394.0" layoutY="295.0" prefHeight="30.0" prefWidth="83.0" text="Telefone">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="idCriarNForn" layoutX="394.0" layoutY="208.0" prefHeight="30.0" prefWidth="202.0" />
+      <TextField fx:id="idCriarEForn" layoutX="393.0" layoutY="263.0" prefHeight="30.0" prefWidth="202.0" />
+      <TextField fx:id="idCriarTForn" layoutX="393.0" layoutY="321.0" prefHeight="30.0" prefWidth="202.0" />
+      <Button fx:id="btnVoltar" layoutX="262.0" layoutY="448.0" mnemonicParsing="false" onAction="#btnVoltar" prefHeight="30.0" prefWidth="69.0" text="Voltar" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ececec" height="395.0" layoutY="106.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Label layoutX="62.0" layoutY="129.0" text="Fornecedores" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="108.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Label fx:id="nome" layoutX="60.0" layoutY="42.0" text="Admin" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="62.0" layoutY="183.0" text="Encomendas" />
+      <Label layoutX="63.0" layoutY="235.0" text="Produtos" />
+      <Label layoutX="64.0" layoutY="286.0" text="Funcionário" />
+      <Label layoutX="60.0" layoutY="463.0" text="Sair" />
+      <Label fx:id="lblemail" layoutX="59.0" layoutY="69.0" prefHeight="12.0" prefWidth="151.0" text="admin@example.com" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="14.0" layoutY="122.0">
+         <image>
+            <Image url="@../../../icons/fornecedor.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="14.0" layoutY="177.0">
+         <image>
+            <Image url="@../../../icons/encomenda.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="14.0" layoutY="229.0">
+         <image>
+            <Image url="@../../../icons/produtos.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="18.0" layoutY="278.0">
+         <image>
+            <Image url="@../../../icons/Funcionarios.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="18.0" layoutY="457.0">
+         <image>
+            <Image url="@../../../icons/porta.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f7f6f6" height="57.0" layoutY="443.0" onMouseClicked="#btnSair" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="202.0" />
+      <Rectangle fx:id="btnFornecedores" arcHeight="5.0" arcWidth="5.0" fill="#f7f6f6" height="57.0" layoutX="1.0" layoutY="109.0" onMouseClicked="#btnFornecedores" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="202.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f7f6f6" height="57.0" layoutX="2.0" layoutY="215.0" onMouseClicked="#btnProdutos" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="202.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f7f6f6" height="57.0" layoutX="-3.0" layoutY="266.0" onMouseClicked="#btnFuncionarios" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="202.0" />
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="18.0" layoutY="333.0">
+         <image>
+            <Image url="@../../../icons/comercial.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="66.0" layoutY="339.0" text="Clientes" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="57.0" layoutX="1.0" layoutY="319.0" onMouseClicked="#btnClientes" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f7f6f6" height="57.0" layoutY="163.0" onMouseClicked="#btnEncomenda" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="202.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0000003d" height="50.0" layoutY="113.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+   </children>
+</AnchorPane>

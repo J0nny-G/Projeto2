@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
+             version="3.0">
+    <persistence-unit name="default">
+
+        <class>entity.Administrador</class>
+        <class>entity.Clientes</class>
+        <class>entity.CodPostal</class>
+        <class>entity.Fatura</class>
+        <class>entity.Fornecedores</class>
+        <class>entity.Funcionario</class>
+        <class>entity.ItensPedidoCompra</class>
+        <class>entity.ItensVenda</class>
+        <class>entity.PedidoCompra</class>
+        <class>entity.Produtos</class>
+        <class>entity.Vendas</class>
+        <class>entity.Sysdiagrams</class>
+        <properties>
+            <property name="hibernate.connection.url" value="jdbc:sqlserver://localhost;database=LojaInformatica"/>
+            <property name="hibernate.connection.driver_class" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+            <property name="hibernate.connection.username" value="sa"/>
+            <property name="hibernate.connection.password" value="123456"/>
+            <property name="hibernate.show_sql" value="true"/>
+        </properties>
+    </persistence-unit>
+</persistence>

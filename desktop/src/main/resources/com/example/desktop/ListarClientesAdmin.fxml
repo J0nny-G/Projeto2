@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.desktop.ClientesAdmin">
+   <children>
+      <ImageView fitHeight="57.0" fitWidth="200.0" layoutX="394.0" layoutY="27.0">
+         <image>
+            <Image url="@../../../icons/logo.png" />
+         </image>
+      </ImageView>
+      <ListView fx:id="idListarNomeC" layoutX="243.0" layoutY="171.0" prefHeight="270.0" prefWidth="209.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="27.0" layoutX="243.0" layoutY="145.0" stroke="BLACK" strokeType="INSIDE" width="209.0" />
+      <Label layoutX="321.0" layoutY="145.0" prefHeight="27.0" prefWidth="53.0" text="Nome" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ListView fx:id="idListarEmailC" layoutX="452.0" layoutY="171.0" prefHeight="270.0" prefWidth="303.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="27.0" layoutX="452.0" layoutY="145.0" stroke="BLACK" strokeType="INSIDE" width="303.0" />
+      <Label layoutX="580.0" layoutY="145.0" prefHeight="27.0" prefWidth="48.0" text="Email" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnCriarC" layoutX="525.0" layoutY="448.0" mnemonicParsing="false" onAction="#btnCriarCliente" prefHeight="30.0" prefWidth="110.0" text="Criar Cliente" />
+      <Label layoutX="393.0" layoutY="100.0" text="Lista de clientes">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <ScrollBar layoutX="755.0" layoutY="169.0" orientation="VERTICAL" prefHeight="270.0" prefWidth="18.0" />
+      <Button fx:id="btnVoltar" layoutX="243.0" layoutY="448.0" mnemonicParsing="false" onAction="#btnVoltar" prefHeight="30.0" prefWidth="69.0" text="Voltar" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ececec" height="395.0" layoutY="106.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Label layoutX="62.0" layoutY="129.0" text="Fornecedores" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="108.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Label fx:id="nome" layoutX="60.0" layoutY="42.0" text="Admin" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="62.0" layoutY="183.0" text="Encomendas" />
+      <Label layoutX="63.0" layoutY="235.0" text="Produtos" />
+      <Label layoutX="64.0" layoutY="286.0" text="Funcionário" />
+      <Label layoutX="60.0" layoutY="463.0" text="Sair" />
+      <Label fx:id="lblemail" layoutX="59.0" layoutY="69.0" prefHeight="12.0" prefWidth="151.0" text="admin@example.com" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="14.0" layoutY="122.0">
+         <image>
+            <Image url="@../../../icons/fornecedor.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="14.0" layoutY="177.0">
+         <image>
+            <Image url="@../../../icons/encomenda.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="14.0" layoutY="229.0">
+         <image>
+            <Image url="@../../../icons/produtos.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="18.0" layoutY="278.0">
+         <image>
+            <Image url="@../../../icons/Funcionarios.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="18.0" layoutY="457.0">
+         <image>
+            <Image url="@../../../icons/porta.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f7f6f6" height="57.0" layoutY="443.0" onMouseClicked="#btnSair" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="202.0" />
+      <Rectangle fx:id="btnFornecedores" arcHeight="5.0" arcWidth="5.0" fill="#f7f6f6" height="57.0" layoutX="1.0" layoutY="109.0" onMouseClicked="#btnFornecedores" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="202.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f7f6f6" height="57.0" layoutX="2.0" layoutY="215.0" onMouseClicked="#btnProdutos" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="202.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f7f6f6" height="57.0" layoutX="-3.0" layoutY="266.0" onMouseClicked="#btnFuncionarios" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="202.0" />
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="18.0" layoutY="333.0">
+         <image>
+            <Image url="@../../../icons/comercial.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="66.0" layoutY="339.0" text="Clientes" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="57.0" layoutX="1.0" layoutY="319.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f7f6f6" height="57.0" layoutY="163.0" onMouseClicked="#btnEncomenda" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="202.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0000003d" height="50.0" layoutY="323.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Button layoutX="645.0" layoutY="448.0" mnemonicParsing="false" onAction="#btnRemover" prefHeight="30.0" prefWidth="110.0" text="Remover Cliente" />
+   </children>
+</AnchorPane>

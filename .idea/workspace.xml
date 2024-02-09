@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ProjetoTeste:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="52f6c86a-2ea0-4d63-ba51-d5faf8f12d1d" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTTP Public Environment File" />
+        <option value="HTML File" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/.jdks/.openjdk-19.0.2.intellij" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/ListarClientes.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/get-requests.http" environment="test" />
+    <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/post-requests.http" environment="test" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/ProjetoTeste-endpoints.http" />
+    <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/requests-with-authorization.http" environment="test" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2PHZRaaOHBzSYpySMzkYywUESNK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JPA.DatabaseSchemaImportDialog&quot;: &quot;9ad5d570-c197-4537-9a90-25d878ba7e7d&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/joao_/Documents/Universidade/2ª ano/2º Semestre/Projeto II/teste/ProjetoTeste/desktop&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/joao_/Desktop/ProjetoTeste&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.16884817&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlserver&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\joao_\Documents\Universidade\2ª ano\2º Semestre\Projeto II\teste\ProjetoTeste\src\main\resources\images" />
+      <recent name="C:\Users\joao_\Documents\Universidade\2ª ano\2º Semestre\Projeto II\teste\ProjetoTeste\desktop\src\main\resources\com\example\desktop" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\joao_\Documents\Universidade\2ª ano\2º Semestre\Projeto II\teste\ProjetoTeste\.idea\httpRequests" />
+      <recent name="C:\Users\joao_\Documents\Universidade\2ª ano\2º Semestre\Projeto II\teste\ProjetoTeste\desktop\src\main\resources\com\example\desktop" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="entity" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.projetoteste" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="All in generated-requests" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http">
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 10.1.9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.9" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="ProjetoTeste:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ProjetoTeste_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="da958d0a-06b9-4296-9c26-7d7256a2c022" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49200" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ProjetoTeste:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="HTTP Request.All in generated-requests" />
+      <item itemvalue="Tomcat Server.Tomcat 10.1.9" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.All in generated-requests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="52f6c86a-2ea0-4d63-ba51-d5faf8f12d1d" name="Changes" comment="" />
+      <created>1683115962496</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683115962496</updated>
+      <workItem from="1683115963707" duration="4428000" />
+      <workItem from="1683125843724" duration="1996000" />
+      <workItem from="1683645176427" duration="1167000" />
+      <workItem from="1683648896061" duration="1093000" />
+      <workItem from="1683650005136" duration="517000" />
+      <workItem from="1683650531588" duration="179000" />
+      <workItem from="1683650718597" duration="196000" />
+      <workItem from="1683650923916" duration="426000" />
+      <workItem from="1683651362194" duration="141000" />
+      <workItem from="1683712030443" duration="417000" />
+      <workItem from="1683712493019" duration="159000" />
+      <workItem from="1683712662956" duration="242000" />
+      <workItem from="1683712917989" duration="103000" />
+      <workItem from="1683713033498" duration="899000" />
+      <workItem from="1683713945477" duration="1681000" />
+      <workItem from="1683715652979" duration="2322000" />
+      <workItem from="1683749669094" duration="7840000" />
+      <workItem from="1683803070297" duration="1384000" />
+      <workItem from="1683812298368" duration="2637000" />
+      <workItem from="1683985686383" duration="4299000" />
+      <workItem from="1684139091395" duration="228000" />
+      <workItem from="1684139564180" duration="111000" />
+      <workItem from="1684161090904" duration="473000" />
+      <workItem from="1684187485455" duration="6633000" />
+      <workItem from="1684235275595" duration="3395000" />
+      <workItem from="1684245757494" duration="5562000" />
+      <workItem from="1684274450065" duration="7390000" />
+      <workItem from="1684282353651" duration="404000" />
+      <workItem from="1684282885150" duration="1200000" />
+      <workItem from="1684284264331" duration="51000" />
+      <workItem from="1684284947070" duration="4000" />
+      <workItem from="1684326009233" duration="2206000" />
+      <workItem from="1684336547576" duration="10095000" />
+      <workItem from="1684363995561" duration="3499000" />
+      <workItem from="1684402691458" duration="1985000" />
+      <workItem from="1684505372689" duration="3936000" />
+      <workItem from="1684770484508" duration="904000" />
+      <workItem from="1684771611167" duration="2639000" />
+      <workItem from="1684782102777" duration="10974000" />
+      <workItem from="1684849575054" duration="434000" />
+      <workItem from="1684929398633" duration="1879000" />
+      <workItem from="1684931304596" duration="1336000" />
+      <workItem from="1684953205089" duration="462000" />
+      <workItem from="1684961734768" duration="240000" />
+      <workItem from="1684962043539" duration="1407000" />
+      <workItem from="1685045219850" duration="1313000" />
+      <workItem from="1685119940121" duration="408000" />
+      <workItem from="1685175666062" duration="3055000" />
+      <workItem from="1685190880974" duration="7033000" />
+      <workItem from="1685710562052" duration="6054000" />
+      <workItem from="1685717530249" duration="1253000" />
+      <workItem from="1685719163870" duration="850000" />
+      <workItem from="1685733527029" duration="9549000" />
+      <workItem from="1685891795736" duration="39000" />
+      <workItem from="1686053159603" duration="6793000" />
+      <workItem from="1686069431780" duration="5929000" />
+      <workItem from="1686130844873" duration="2556000" />
+      <workItem from="1686133473882" duration="68000" />
+      <workItem from="1686156768685" duration="2662000" />
+      <workItem from="1686219180157" duration="25618000" />
+      <workItem from="1686246554167" duration="8165000" />
+      <workItem from="1686260452296" duration="6436000" />
+      <workItem from="1686309177465" duration="10456000" />
+      <workItem from="1686397247883" duration="31124000" />
+      <workItem from="1686490885330" duration="197000" />
+      <workItem from="1686519231151" duration="535000" />
+      <workItem from="1686520170279" duration="113000" />
+      <workItem from="1686520519182" duration="1199000" />
+      <workItem from="1686566828773" duration="101000" />
+      <workItem from="1686666050244" duration="630000" />
+      <workItem from="1686741354987" duration="98000" />
+      <workItem from="1686742096117" duration="74000" />
+      <workItem from="1686742608943" duration="2113000" />
+      <workItem from="1686922198168" duration="80000" />
+      <workItem from="1707515423026" duration="120000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/desktop/src/main/java/com/example/desktop/CriarFuncionarios.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="rsFuncionario.getString(&quot;NOME_FUNCIONARIO&quot;)" language="JAVA" />
+        <watch expression="event" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
